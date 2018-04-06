@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# Use like `./space_log.py -s|-p|-t|-d|-f log_file
+# Use like `./space_log.py elite.log -s|-p|-t|-d|-f 
 
 from sys import argv
 import fuel
@@ -19,7 +19,7 @@ except:
 argSwitcher = {
 #	'-s': NAMES OF SYSTEMS VISITED
 #	'-p': NAMES OF PLANETS SCANNED
-#	'-t': TOTAL NUMBER OF TERRAFORMABLE PLANETS SCANNED
+	'-t': terraformable.getterraformableplanets,
 #	'-d': TOTAL DISTANCE IN LIGHT YEARS
 	'-f': fuel.get_total_fuel,	# The example.
 }
