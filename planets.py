@@ -1,7 +1,7 @@
 # THomas Brenner 
 import re
-def names_of_planets(content:str) -> char:
-		pattern = re.compile("\"Bodyname\":(\d+\.\d+)")
-		result = patter.findall(content)
+def names_of_planets(content:str):
+		pattern = re.compile("\"BodyName\":\"\w+")
+		result = pattern.findall(content)
 		
-		return fuel
+		return result
