@@ -1,5 +1,5 @@
 
-import starsystems
+import re
 
 def get_star_systems("event":"FSDJump") -> string:
 	pattern = starsystems.compile("\"StarSystems visited\":(\d+\.\d+)")
