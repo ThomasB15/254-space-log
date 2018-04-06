@@ -21,7 +21,7 @@ argSwitcher = {
 #	'-p': NAMES OF PLANETS SCANNED
 #	'-t': TOTAL NUMBER OF TERRAFORMABLE PLANETS SCANNED
 #	'-d': TOTAL DISTANCE IN LIGHT YEARS
-	'-f': fuel.get_total_fuel,	# The example.
+#	'-f': fuel.get_total_fuel,	# The example.
 }
 
 try:
