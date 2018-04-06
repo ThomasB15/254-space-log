@@ -7,5 +7,5 @@ def get_start_systems("event":"FSDJump") -> string:
 	stars = 0
 	if result:
 		for s in result:
-			starts+=string(s)
+			stars+=string(s)
 return stars
