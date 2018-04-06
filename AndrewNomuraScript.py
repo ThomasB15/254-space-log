@@ -1,7 +1,7 @@
 
 import starsystems
 
-def get_start_systems("event":"FSDJump") -> string:
+def get_star_systems("event":"FSDJump") -> string:
 	pattern = starsystems.compile("\"StarSystems visited\":(\d+\.\d+)")
 	result = pattern.findall(content)
 	stars = 0
