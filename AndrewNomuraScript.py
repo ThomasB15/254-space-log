@@ -8,4 +8,4 @@ def get_star_systems("event":"FSDJump") -> string:
 	if result:
 		for s in result:
 			star+=string(s)
-return star
+	return star
