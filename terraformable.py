@@ -7,6 +7,7 @@ def get_terraformable_planets(content:str) -> float:
 	count = 0
 	if result:
 		for r in result:
-			if not str(r):
+			if str(r):
+				print r
 				count+= 1
 	return count
