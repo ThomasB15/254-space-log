@@ -1,4 +1,4 @@
-//get number of terraformable planets
+#get number of terraformable planets
 import re
 
 def get_terraformable_planets(content:str) -> float:
