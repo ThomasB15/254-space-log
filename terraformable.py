@@ -1,7 +1,7 @@
 //get number of terraformable planets
 import re
 
-def get_total_fuel(content:str) -> float:
+def get_terraformable_planets(content:str) -> float:
 	pattern = re.compile("\"TerraformState\":(\S)")
 	result = pattern.findall(content)
 	count = 0
