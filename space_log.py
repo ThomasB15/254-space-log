@@ -4,7 +4,7 @@
 
 from sys import argv
 import fuel
-import AndrewNomuraScript
+import starsystems
 
 # Opens the log file and grabs the contents.
 try:
@@ -18,7 +18,7 @@ except:
 
 # Uncomment, and add your work in the appropriate spots.
 argSwitcher = {
-	'-s': AndrewNomuraScript.get_star_systems,  # NAMES OF SYSTEMS VISITED
+	'-s': starsystems.get_star_systems,  # NAMES OF STAR SYSTEMS VISITED
 #	'-p': NAMES OF PLANETS SCANNED
 #	'-t': TOTAL NUMBER OF TERRAFORMABLE PLANETS SCANNED
 #	'-d': TOTAL DISTANCE IN LIGHT YEARS
