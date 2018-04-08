@@ -4,6 +4,8 @@
 
 from sys import argv
 import fuel
+
+import starsystems
 import planets
 import terraformable
 
@@ -19,8 +21,8 @@ except:
 
 # Uncomment, and add your work in the appropriate spots.
 argSwitcher = {
-
-#	'-s': NAME OF SYSTEMS VISTED 
+  
+	'-s': starsystems.get_star_systems,  # NAMES OF STAR SYSTEMS VISITED
 	'-p': planets.names_of_planets,
   '-t': terraformable.get_terraformable_planets,
 #	'-d': TOTAL DISTANCE IN LIGHT YEARS
