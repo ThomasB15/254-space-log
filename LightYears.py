@@ -8,4 +8,4 @@ def get_total_light_years(content:str) -> float:
 	if result:
 		for r in result:
 			dist+=float(r)
-return dist
+	return dist
