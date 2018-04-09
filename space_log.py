@@ -22,14 +22,14 @@ except:
 
 # Uncomment, and add your work in the appropriate spots.
 argSwitcher = {
-ChaseReed
+
 	'-d': LightYears.get_total_light_years,
 	'-f': fuel.get_total_fuel,
 	'-s': starsystems.get_star_systems,  # NAMES OF STAR SYSTEMS VISITED
 	'-p': planets.names_of_planets,
  	'-t': terraformable.get_terraformable_planets,
 
- master
+ 
 }
 
 try:
