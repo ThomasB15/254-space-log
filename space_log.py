@@ -9,7 +9,7 @@ import starsystems
 import planets
 import terraformable
 
-master
+
 # Opens the log file and grabs the contents.
 try:
 	fh = open(argv[1], 'r')
