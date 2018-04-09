@@ -27,7 +27,7 @@ ChaseReed
 	'-f': fuel.get_total_fuel,
 	'-s': starsystems.get_star_systems,  # NAMES OF STAR SYSTEMS VISITED
 	'-p': planets.names_of_planets,
- 	 '-t': terraformable.get_terraformable_planets,
+ 	'-t': terraformable.get_terraformable_planets,
 
  master
 }
